@@ -1,0 +1,42 @@
+Unfortunately, after the deadly invasion of the Night King’s army, all the cities of Westeros are now occupied by white walkers!
+
+Jon Snow has formed a small council and they have prepared a map of cities and the roads between them. These roads are cursed by the night king to work only in one direction, so if anyone moves in opposite direction, they will turn into zombies! The council has divided the cities into some number of states in the following way:
+
+For any two cities  and , we say  and  belong to the same state if and only if there is a safe way to go from  to  (without turning into zombies) and also there is a safe way to go from  to .
+
+Jon Snow and his allies want to fight and kill those creatures! They know that for each state, they need 1 dragonglass dagger in order to be able to clear up that state completely! They will start their journey from a random city and will follow the roads in order to kill all white walkers in the state which that city belongs to. They then must move to a city in a nearby state, or if it’s not possible (there is no way to go to a nearby state) they will end their journey. Note that a dragonglass dagger used in one state cannot be used in another state.
+
+If Jon Snow’s army runs out of dragonglass daggers before ending their journey, then they will be killed by the army of dead. What’s the minimum number of daggers they should take with themselves in order to be sure that they won’t be killed in this journey, no matter what city from which they start their journey?
+
+Input Format
+
+The first line of input will contain an integer  which indicates the number of cities (assume the cities are labeled from 1 to ). each of the following lines will contain two space delimited integers like   which represents a safe 1-directional road from  to  and you have .
+
+Constraints
+
+number of cities are less than 100.
+
+Output Format
+
+an integer which indicates the minimum number of daggers that jon snow should take in order to be sure he will not run out of daggers during his journey.
+
+Sample Input 0
+
+9
+1 2
+2 3
+3 1
+3 4
+3 7
+4 6
+6 5
+5 4
+7 8
+8 9
+9 7
+Sample Output 0
+
+2
+Explanation 0
+
+If you draw the map of cities, you see they form 3 states, if Jon Snow starts from the state which contains cities {1,2,3}, then he needs two daggers to finish his journey.

@@ -1,0 +1,21 @@
+Given a list of integers as input, find and output the second maximum element in it. Assume that all the elements are unique.
+
+Input Format
+
+On the first line of standard input there is an integer representing the number of elements in the list. The second line would contain several space separated integers as the elements of the list.
+
+Constraints
+
+the list elements are unique. list will have more than one element.
+
+Output Format
+
+it should be an integer.
+
+Sample Input 0
+
+10
+1 2 3 4 5 6 7 8 9 10
+Sample Output 0
+
+9

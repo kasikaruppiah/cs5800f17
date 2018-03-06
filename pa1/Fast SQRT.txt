@@ -1,0 +1,21 @@
+Devise an algorithm which for an number (not necessarily an integer!) , finds an approximation of such that  The number of operations that your algorithm do should be .
+
+Clearly you are not allowed to use Math library in your programming language.
+
+Input Format
+
+The first line of the input consists of a number  .
+
+Constraints
+
+
+Output Format
+
+print out the number that you have a calculated to STDOUT.
+
+Sample Input 0
+
+25
+Sample Output 0
+
+5
